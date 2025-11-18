@@ -1,0 +1,8 @@
+argc = le nombre d'argument
+argv = la liste de chaque argument (chaine de charactère)
+
+donc en gros
+pax oublier que argv[0] est frocément le nom de la comande (ex : ./a)
+for (int i =0 ; < argc; i++){
+	printf("%s", argv[i]);
+}//j'imprime tout mes arguments sur le terminal
