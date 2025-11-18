@@ -1,0 +1,7 @@
+1. créer list.c (code pour une liste sans le main(pas oublier de inculde liste.jh))
+2. créer list.h (juste les header)
+3.créer une librarie soit statique soit dynamique
+	dynamique .so : gcc -shared list.so list.c
+	statique .a : ar rcs list.a list.c
+4. créer un main.c (code global ou j'utilise ma librarie)
+4. gcc -o prog main.c -llist -L Document/librarie/list.a
